@@ -110,13 +110,11 @@ double CalculateTax(int income)
 				else 
 				{
 					cout << "Error, enter an 'M or an 'S'" << endl;
-					cin.clear();
-					cin >> garbageString;
 				}
 		}
 		else
 		{
-			cout << "Error, enter an 'M' or an 'S'" << endl;
+			cout << "Error, enter an 'M' character or an 'S' charatcter" << endl;
 			cin.clear();
 			cin >> garbageString;
 		}
@@ -190,4 +188,3 @@ int main()
 
     return 0;
 }
-
